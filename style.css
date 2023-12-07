@@ -1,0 +1,117 @@
+.body{
+    background-color: hsl(187, 88%, 74%);
+}
+
+.nume{
+    margin-top: 50px;
+    color: #a70101;
+    background-color: #ffb5e0;
+    text-decoration-line: underline;
+    border-style: solid;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mail{
+    text-size-adjust: 16;
+    color: #a70101;
+    background-color: #ffb5e0;
+    border-style: double;
+    border-top: 2px double;
+    border-right: 2px double;
+    border-bottom: 2px double;
+    border-left: 7px solid;
+    padding-left: 80px; 
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 30px;
+}
+
+.table{
+    width: 70%;
+    align-self: center;
+    margin-left: 300px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 4px solid #a70101;
+   text-align: center;
+   padding: 4px;
+    background-color: #ffb5e0;
+}
+
+tr{
+   border: 4px solid #a70101; 
+    background-color: #ffb5e0;
+}
+
+.comp{
+    margin-left: 700px;
+    text-decoration: underline;
+}
+
+.str{
+    margin-left: 770px;
+    text-decoration: underline;
+}
+
+.img{
+    margin-left: 0px;
+    border: 8px double #a70101; 
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    opacity: 2.0;
+    background-color: #ffb5e0;
+}
+
+.carac{
+    text-decoration: underline;
+}
+
+li{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.mySlides{
+    height: 50px;
+    width: auto;
+    text-decoration: underline;
+}
+.slideshow {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+ 
+.dot-container {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 200px;
+    display: none;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    background-color: rgb(194, 197, 180);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+#slideshow-img {
+    display: none;
+}
+#slideshowTitle:hover {
+    cursor: pointer;
+}
